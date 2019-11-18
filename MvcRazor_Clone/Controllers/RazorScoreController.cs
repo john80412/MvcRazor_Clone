@@ -37,6 +37,10 @@ namespace MvcRazor_Clone.Controllers
             ViewBag.TopId = topId;
             return View(students);
         }
+        public ActionResult ScoresRazorPure()
+        {
+            return View(students);
+        }
         // GET: RazorScore
         public ActionResult Index()
         {
